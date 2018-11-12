@@ -1,0 +1,8 @@
+Two graphs are isomorphic if there is a way to rename the vertices of one to make it identical to the other. 
+Draw all the non isomorphic graphs with two, three, four, and five vertices.
+
+ans
+two---- 0
+three---7
+four---- 11
+five----23
