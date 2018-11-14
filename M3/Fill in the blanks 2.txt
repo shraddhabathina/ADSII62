@@ -1,0 +1,19 @@
+private void dfs(Digraph G,int  v)
+{
+marked[v]=_____; //Blank1
+for(int w : G.adj(v))
+{
+if(!marked[w]){
+edgeTo[______] = ______; //Blank2 //Blank3
+dfs(G, ___);//Blank4
+}
+}
+}
+
+Blank1: true
+
+Blank2: w 
+
+Blank3: v
+
+Blank4: w

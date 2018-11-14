@@ -1,0 +1,11 @@
+public void addEdge(int v, int w)
+{
+validateVertex(v);
+validateVertex(w);
+adj[_____].add(w); //Blank1
+Indegree[____]++; //Blank2
+E++;
+}
+
+Blank 1: v
+Blank 2: w
