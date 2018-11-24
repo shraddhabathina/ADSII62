@@ -1,0 +1,212 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+6 vertices 6 edges
+0: 0-3 1.00000  0-1 2.00000  
+1: 1-2 4.00000  1-4 5.00000  0-1 2.00000  
+2: 2-4 1.00000  3-2 3.00000  1-2 4.00000  
+3: 3-2 3.00000  0-3 1.00000  
+4: 2-4 1.00000  1-4 5.00000  
+5:
+
+Your Output: 
+Error: Main method is not static in class Solution, please define the main method as:
+   public static void main(String[] args)
+
+----------------------------------------
+########## Testcase 1: Failed ##########
+Expected Output: 
+10 vertices 11 edges
+0: 0-7 221.00000  0-4 78.00000  
+1: 1-7 158.00000  1-7 159.00000  1-6 92.00000  
+2: 2-9 237.00000  2-5 179.00000  2-4 55.00000  
+3: 3-7 205.00000  
+4: 4-5 191.00000  2-4 55.00000  0-4 78.00000  
+5: 4-5 191.00000  2-5 179.00000  
+6: 1-6 92.00000  
+7: 7-9 157.00000  3-7 205.00000  1-7 158.00000  1-7 159.00000  0-7 221.00000  
+8: 
+9: 7-9 157.00000  2-9 237.00000
+
+Your Output: 
+Error: Main method is not static in class Solution, please define the main method as:
+   public static void main(String[] args)
+
+----------------------------------------
+########## Testcase 2: Failed ##########
+Expected Output: 
+No Path Found.
+
+Your Output: 
+Error: Main method is not static in class Solution, please define the main method as:
+   public static void main(String[] args)
+
+----------------------------------------
+########## Testcase 3: Failed ##########
+Expected Output: 
+370.0
+
+Your Output: 
+Error: Main method is not static in class Solution, please define the main method as:
+   public static void main(String[] args)
+
+----------------------------------------
+########## Testcase 4: Failed ##########
+Expected Output: 
+No Path Found.
+
+Your Output: 
+Error: Main method is not static in class Solution, please define the main method as:
+   public static void main(String[] args)
+
+----------------------------------------
+########## Testcase 5: Failed ##########
+Expected Output: 
+692.0
+5 2 4 0 7 1
+
+Your Output: 
+Error: Main method is not static in class Solution, please define the main method as:
+   public static void main(String[] args)
+
+----------------------------------------
+Result: 0/6 testcases passed.
+Starting audit...
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:3:8: Unused import - java.util.List. [UnusedImports]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:6: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:6: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:7:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:8:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:8:28: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:8:31: Variable 'list' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:9:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:9:13: Variable 'v' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:10:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:10:18: Parameter v should be final. [FinalParameters]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:10:22: 'v' hides a field. [HiddenField]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:11:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:12:23: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:12:24: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:13:21: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:13:22: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:14:20: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:14:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:14:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:14:29: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:14:30: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:14:31: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:14:33: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:15:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:16:32: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:16:33: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:19: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:20:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:20:22: Parameter v should be final. [FinalParameters]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:20:26: 'v' hides a field. [HiddenField]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:20:28: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:20:28: Parameter e should be final. [FinalParameters]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:21:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:25: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:26:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:27:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:28:20: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:28:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:28:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:28:29: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:28:30: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:28:31: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:28:33: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:29:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:33: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:36: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:37:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:38:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:38:13: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:38:13: Variable 'V' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:39:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:39:13: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:39:13: Variable 'E' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:40:13: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:40:16: Variable 'bag' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:41:8: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:41:11: Variable 'indegree' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:42: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:42:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:42:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:42:20: Parameter V should be final. [FinalParameters]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:42:24: 'V' hides a field. [HiddenField]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:42:24: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:43:5: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:48: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:49:9: '{' at column 9 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:52: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:53: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:54: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:54:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:54:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:54:20: Parameter G should be final. [FinalParameters]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:54:28: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:55:5: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:65: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:65: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:66:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:67: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:67:9: Class 'Solution' looks like designed for extension (can be subclassed), but the method 'main' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Solution' final or making the method 'main' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:67:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:67:26: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:68:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:69:27: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:69:28: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:70:21: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:70:22: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:70:23: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:71:22: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:71:23: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:72:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:72:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:73:27: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:73:28: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:74:20: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:74:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:74:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:74:29: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:74:30: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:74:31: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:74:33: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:75:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:76:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:76:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:77:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:77:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:78:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:78:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:86: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:87:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:93: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:94: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:101: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] C:\Users\Shraddha\Documents\GitHub\ADSII62\ADS-2_Exam-2\Solution.java:102: Line is longer than 80 characters (found 111). [LineLength]
+Audit done.
+Checkstyle ends with 115 errors.
+
+
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	modified:   a.txtt
+	modified:   ../M3/3.1 Directed Cycle/Directeddfs.java
+
+Untracked files:
+	../ADS-2_Exam-2_62.zip
+	../ADS2W1Exam/
+	../ADS2W1Exam_62.zip
+	../M1/1.1 Graph/
+	../M2/
+	../M3/3.2 Bipartite/
+	../M7/
+	../M9/
+
+no changes added to commit
+
+
